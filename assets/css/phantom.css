@@ -70,6 +70,14 @@
 	  top: -20px;
 }
 
+.push-article a {
+
+}
+
+body {
+	overflow-x: hidden;
+}
+
 p, ul, ol {
 	margin-bottom:40px;
 	font-size:18px;
@@ -237,6 +245,7 @@ article hr {
 article p > img, article a > img {
 	display:block;
 	margin:0 auto;
+	max-width: 100%;
 }
 .article-image {
 	width:940px;
@@ -414,7 +423,7 @@ footer p {
 		line-height:54px;
 	}
 	.title {
-		width:90%;
+
 	}
 
 	.meta a:after {
@@ -480,7 +489,7 @@ footer p {
 	}
 	p {
 		font-family: omnes-pro,sans-serif;
-		font-size: 20px;
+		font-size: 15px;
 		color: #777;
 	}
 	.container, .pagination {
@@ -535,7 +544,7 @@ footer p {
 		line-height: 26px;
 	}
 	.title, .meta {
-		width:260px;
+
 	}
 	.author .info {
 		margin-left: 0;
