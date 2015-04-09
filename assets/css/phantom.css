@@ -151,6 +151,8 @@ strong {
 	font-weight:300;
 	line-height:60px;
 	margin:0;
+	font-family: flood-std,sans-serif;
+	text-align: center;
 }
 .title p {
 	max-width: 420px;
@@ -351,7 +353,8 @@ footer p {
 	display:none;
 }
 .sample .title a, .sample .meta strong {
-	color:#464c4c;
+	color:#000;
+	text-decoration: none;
 }
 .blog-cover {
 	padding: 180px 8%;
