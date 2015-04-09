@@ -234,7 +234,7 @@ article {
 	animation-duration:1s;
 	padding:40px 0;
 }
-article:not(:last-child) {
+article:not(:nth-last-child(2)) {
 	border-bottom: 1px solid #efefef;
 }
 .hljs {
