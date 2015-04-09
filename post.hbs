@@ -4,12 +4,12 @@
 
     {{> post-meta}}
 
-    <header class="animated fadeIn" {{#if image}}style="background-image: url({{image}})"{{/if}}>
+    <div class="animated fadeIn post-meta-container" {{#if image}}style="background-image: url({{image}})"{{/if}}>
         <div class="container" data-stellar-ratio="0.75">
             {{> title}}
             {{> sidebar}}
         </div>
-    </header>
+    </div>
 
     <div class="push-article">
 

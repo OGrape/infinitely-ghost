@@ -62,6 +62,10 @@
 	padding-top: 30px;
 }
 
+.post-meta-container {
+	padding-top: 150px;
+}
+
 p, ul, ol {
 	margin-bottom:40px;
 	font-size:18px;
@@ -171,7 +175,6 @@ strong {
 }
 .meta strong {
 	display:block;
-	color:#fff;
 	font-weight: 600;
 }
 .meta time, .tags a {
