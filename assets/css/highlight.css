@@ -14,7 +14,8 @@ font-size: 15px;
 }
 
 .hljs *::selection {
-	background:transparent;
+	color: #fff;
+	background: #162A42;
 }
 
 .hljs-comment,.hljs-template_comment,.hljs-javadoc,.hljs-shebang {
