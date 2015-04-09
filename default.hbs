@@ -58,14 +58,33 @@
 
     </head>
     <body class="{{body_class}}">
-        <nav class="animated fadeIn navigation">
-            <div class="container">
-                <a href="{{@blog.url}}" class="text-right sidebar brand">
-                    {{#if @blog.logo}}<img src="{{@blog.logo}}" alt="{{@blog.title}}" />{{/if}}
-                </a>
-                <p class="content">{{@blog.title}}</p>
-            </div>
-        </nav>
+
+        <header class="site site-header" component="header">
+            <h1>Infinitely</h1>
+            <a href="/" class="site site-logo">
+                Infinitely
+            </a>
+            <a href="http://develo.pe" class="site site-{{=it.studio}}-logo site-studio-logo" target="_blank">
+                devstudio
+            </a>
+            <nav class="site-header-nav">
+                <h2>The Design &amp; Love</h2>
+                <ul>
+                    <li>
+                        <a href="#about">about</a>
+                    </li>
+                    <li>
+                        <a href="#works">works</a>
+                    </li>
+                    <li>
+                        <a href="#contact">contact</a>
+                    </li>
+                    <li class="site clear"></li>
+                </ul>
+                <div class="site clear"></div>
+            </nav>
+            <div class="site clear"></div>
+        </header>
         <div class="main">
             {{{body}}}
         </div>
