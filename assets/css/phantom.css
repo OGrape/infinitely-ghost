@@ -234,6 +234,9 @@ article {
 	animation-duration:1s;
 	padding:40px 0;
 }
+article:not(:last-child) {
+	border-bottom: 1px solid #efefef;
+}
 .hljs {
 	padding: 20px;
 	border-radius: 3px;
@@ -406,7 +409,7 @@ footer p {
 	.container, .pagination {
 		width:auto;
 		max-width:650px;
-		padding:0 8%;
+		padding:0 8% 40px 8%;
 	}
 	.sidebar {
 		position:static;
@@ -493,7 +496,7 @@ footer p {
 		color: #777;
 	}
 	.container, .pagination {
-		padding:0 6%;
+		padding:0 6% 40px 6%;
 	}
 	.comments, footer {
 		padding:60px 0;
