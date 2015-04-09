@@ -485,6 +485,9 @@ footer p {
 	}
 }
 @media (max-width: 480px) {
+	.site.site-wrapper .main {
+		padding-top: 80px;
+	}
 	p, ul, ol {
 		margin-bottom:20px;
 		font-size:13px;
