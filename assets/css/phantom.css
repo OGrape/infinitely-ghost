@@ -57,10 +57,7 @@
 		transform: none;
 	}
 }
-body {
-	font-family:'Open Sans', 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif;
-	font-weight:300;
-}
+
 p, ul, ol {
 	margin-bottom:40px;
 	font-size:18px;
@@ -153,29 +150,7 @@ strong {
 	line-height:90px;
 	margin:0;
 }
-header {
-	position:relative;
-	font-weight:300;
-	color:#fff;
-	background-position:center center;
-	background-repeat:no-repeat;
-	background-size:cover;
-	-webkit-animation-duration:3s;
-	animation-duration:3s;
-}
-header:before {
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	background:rgba(36, 43, 47, 0.8);
-	content:"";
-}
-header .container {
-	padding-top:130px;
-	padding-bottom:260px;
-}
+
 .title {
 	-webkit-animation-delay:.5s;
 	animation-delay:.5s;
