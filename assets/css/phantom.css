@@ -79,7 +79,6 @@ strong {
 	font-weight:600;
 }
 .excerpt {
-	z-index:-1;
 	position:relative;
 }
 .container, .pagination {
