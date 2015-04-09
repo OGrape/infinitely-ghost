@@ -66,6 +66,10 @@
 	padding-top: 150px;
 }
 
+.tags-container {
+	  top: -20px;
+}
+
 p, ul, ol {
 	margin-bottom:40px;
 	font-size:18px;
@@ -98,9 +102,13 @@ strong {
 .pagination {
 	text-align: center;
 	font-size: 13px;
+	padding-bottom: 40px;
 }
 .page-number {
-	color: #7f8c8d;
+	font-family: proxima-nova;
+	font-weight: 400;
+	font-size: 13px;
+	color: #000;
 }
 .older-posts {
 	position: absolute;

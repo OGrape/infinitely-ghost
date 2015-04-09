@@ -1,7 +1,7 @@
 {{!< default}}
 
 <div class="animated fadeIn" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
-    <div class="container" data-stellar-ratio="0.75">
+    <div class="container tags-container" data-stellar-ratio="0.75">
         <div class="sidebar text-right meta">
             <div class="published animated fadeInUp">
                 <strong>{{plural pagination.total empty="No posts" singular="% article" plural="% articles"}}</strong>
