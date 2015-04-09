@@ -57,10 +57,7 @@
 		transform: none;
 	}
 }
-body {
-	font-family:'Open Sans', 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif;
-	font-weight:300;
-}
+
 p, ul, ol {
 	margin-bottom:40px;
 	font-size:18px;
