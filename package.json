@@ -1,15 +1,14 @@
 {
-  "name": "Phantom",
-  "version": "5.0.0",
-  "description": "A minimalistic theme for Ghost inspired by the Designmodo Journal.",
+  "name": "Infinitely",
+  "version": "1.0.0",
+  "description": "A minimalistic theme for Infinitely.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/haydenbleasel/ghost-themes.git"
+    "url": "https://github.com/OGrape/infinitely-ghost.git"
   },
-  "author": "Hayden Bleasel <haydenbleasel@gmail.com>",
   "bugs": {
-    "url": "https://github.com/haydenbleasel/ghost-themes/issues"
+    "url": "https://github.com/Grape/infinitely-ghost/issues"
   },
-  "homepage": "https://github.com/haydenbleasel/ghost-themes",
+  "homepage": "https://github.com/Grape/infinitely-ghost",
   "private": true
 }
