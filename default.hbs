@@ -58,42 +58,43 @@
 
     </head>
     <body class="{{body_class}}">
-
-        <header class="site site-header" component="header">
-            <h1>Infinitely</h1>
-            <a href="/" class="site site-logo">
-                Infinitely
-            </a>
-            <a href="http://develo.pe" class="site site-devstudio-logo site-studio-logo" target="_blank">
-                devstudio
-            </a>
-            <nav class="site-header-nav">
-                <h2>The Design &amp; Love</h2>
-                <ul>
-                    <li>
-                        <a href="#about">about</a>
-                    </li>
-                    <li>
-                        <a href="#works">works</a>
-                    </li>
-                    <li>
-                        <a href="#contact">contact</a>
-                    </li>
-                    <li class="site clear"></li>
-                </ul>
+        <div class="site site-wrapper">
+            <header class="site site-header" component="header">
+                <h1>Infinitely</h1>
+                <a href="/" class="site site-logo">
+                    Infinitely
+                </a>
+                <a href="http://develo.pe" class="site site-devstudio-logo site-studio-logo" target="_blank">
+                    devstudio
+                </a>
+                <nav class="site-header-nav">
+                    <h2>The Design &amp; Love</h2>
+                    <ul>
+                        <li>
+                            <a href="#about">about</a>
+                        </li>
+                        <li>
+                            <a href="#works">works</a>
+                        </li>
+                        <li>
+                            <a href="#contact">contact</a>
+                        </li>
+                        <li class="site clear"></li>
+                    </ul>
+                    <div class="site clear"></div>
+                </nav>
                 <div class="site clear"></div>
-            </nav>
-            <div class="site clear"></div>
-        </header>
-        <div class="main">
-            {{{body}}}
-        </div>
-        <footer class="animated fadeIn" id="footer">
-            <div class="container text-center">
-                <p class="copyright"><span>Made by {{@blog.title}}.</span> <span>Powered by Ghost.</span></p>
-                <a href="https://github.com/haydenbleasel/phantom" class="theme">Theme: Phantom by Hayden Bleasel</a>
+            </header>
+            <div class="main">
+                {{{body}}}
             </div>
-        </footer>
+            <footer class="animated fadeIn" id="footer">
+                <div class="container text-center">
+                    <p class="copyright"><span>Made by {{@blog.title}}.</span> <span>Powered by Ghost.</span></p>
+                    <a href="https://github.com/haydenbleasel/phantom" class="theme">Theme: Phantom by Hayden Bleasel</a>
+                </div>
+            </footer>
+        </div>
 
         {{ghost_foot}}
 
