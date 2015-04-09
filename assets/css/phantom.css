@@ -83,7 +83,8 @@ strong {
 }
 .container, .pagination {
 	position:relative;
-	width:500px;
+	width:calc(100% - 600px);
+	max-width: 700px;
 	margin:0 auto;
 }
 .pagination {
@@ -162,10 +163,12 @@ strong {
 .meta {
 	top:140px;
 	text-transform: capitalize;
+	font-family: omnes-pro,sans-serif;
 }
 .meta strong {
 	display:block;
 	color:#fff;
+	font-weight: 600;
 }
 .meta time, .tags a {
 	font-weight:300;
@@ -458,6 +461,11 @@ footer p {
 		margin-bottom:20px;
 		font-size:13px;
 		line-height:25px;
+	}
+	p {
+		font-family: omnes-pro,sans-serif;
+		font-size: 20px;
+		color: #777;
 	}
 	.container, .pagination {
 		padding:0 6%;
