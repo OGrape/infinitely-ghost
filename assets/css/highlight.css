@@ -13,6 +13,10 @@ font-size: 15px;
 	background: #162A42;
 }
 
+.hljs *::selection {
+	background:transparent;
+}
+
 .hljs-comment,.hljs-template_comment,.hljs-javadoc,.hljs-shebang {
 color:#bc9458;
 font-style:italic;
