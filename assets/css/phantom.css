@@ -172,6 +172,7 @@ strong {
 	top:140px;
 	text-transform: capitalize;
 	font-family: omnes-pro,sans-serif;
+	z-index: 2;
 }
 .meta strong {
 	display:block;
