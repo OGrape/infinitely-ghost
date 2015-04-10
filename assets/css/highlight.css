@@ -2,10 +2,10 @@
 display:block;
 overflow-x:auto;
 background:#14191F;
-color:#e6e1dc;
+color:#A2C2E0;
 -webkit-text-size-adjust:none;
 padding:.5em;
-font-size: 15px;
+font-size: 14px;
 }
 
 .hljs::selection {
