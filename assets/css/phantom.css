@@ -91,6 +91,24 @@ p, ul, ol {
 ul ul, ol ul, ul ol, ol ol {
 	margin-bottom:0;
 }
+
+table {
+	
+	margin: 1.6em 0;
+	  width: 100%;
+	  max-width: 100%;
+	  background-color: transparent;
+	  border-collapse: collapse;
+	    border-spacing: 0;
+}
+
+table th, table td, .table th, .table td {
+	padding: 8px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: middle;
+}
+
 blockquote {
 	padding-left:20px;
 	margin-left:20px;
