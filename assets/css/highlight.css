@@ -19,8 +19,7 @@ font-size: 14px;
 }
 
 .hljs-comment,.hljs-template_comment,.hljs-javadoc,.hljs-shebang {
-color:#bc9458;
-font-style:italic;
+color:#324457;
 }
 
 .hljs-keyword,.ruby .hljs-function .hljs-keyword,.hljs-request,.hljs-status,.nginx .hljs-title,.method,.hljs-list .hljs-title {
