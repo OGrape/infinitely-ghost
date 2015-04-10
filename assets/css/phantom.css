@@ -87,6 +87,7 @@ p, ul, ol {
 	color:#7f8c8d;
 	font-family: omnes-pro,sans-serif;
 	font-weight: 300;
+	letter-spacing: 0.5px;
 }
 ul ul, ol ul, ul ol, ol ol {
 	margin-bottom:0;
